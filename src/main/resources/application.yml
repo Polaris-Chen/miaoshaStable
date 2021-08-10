@@ -5,10 +5,10 @@ server:
       timeout: 600
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/miaosha
+    url: jdbc:mysql://sh-cynosdbmysql-grp-4y5a3gfo.sql.tencentcdb.com:20121/miaosha
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: 31284679
+    password: Czhlzyy520!
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
